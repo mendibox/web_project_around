@@ -7,7 +7,10 @@
     <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon" />
     <link rel="stylesheet" href="./pages/index.css" />
     <script src="./scripts/script.js"></script>
-    <script src="https://kit.fontawesome.com/0291b03fa1.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/0291b03fa1.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body class="page">
     <header class="header">
@@ -36,6 +39,17 @@
           alt="Button to add a new image"
           class="profile__add-btn"
         />
+        <div class="popup__container"></div>
+        <form class="popup">
+          <p class="popup__title">Editar perfil</p>
+          <input class="popup__input-name" type="text" placeholder="Nombre" />
+          <input
+            class="popup__input-about"
+            type="text"
+            placeholder="Acerca de mí"
+          />
+          <button type="submit">Guardar</button>
+        </form>
       </div>
     </main>
   </body>
