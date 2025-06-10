@@ -34,22 +34,20 @@
           </div>
           <p class="profile__profession">Explorer</p>
         </div>
-        <img
-          src="./images/add-button.png"
-          alt="Button to add a new image"
-          class="profile__add-btn"
-        />
-        <div class="popup__container"></div>
-        <form class="popup">
-          <p class="popup__title">Editar perfil</p>
-          <input class="popup__input-name" type="text" placeholder="Nombre" />
-          <input
-            class="popup__input-about"
-            type="text"
-            placeholder="Acerca de mí"
-          />
-          <button type="submit">Guardar</button>
-        </form>
+        <button class="profile__btn-add"><i class="fa-solid fa-plus profile__symbol-add"></i></button>
+        <div class="popup__container">
+          <form class="popup">
+            <i class="fa-solid fa-xmark popup__close"></i>
+            <p class="popup__title">Editar perfil</p>
+            <input class="popup__input-name" type="text" placeholder="Nombre" />
+            <input
+              class="popup__input-about"
+              type="text"
+              placeholder="Acerca de mí"
+            />
+            <button class="popup__btn-submit" type="submit" disabled >Guardar</button>
+          </form>
+        </div>
       </div>
     </main>
   </body>
