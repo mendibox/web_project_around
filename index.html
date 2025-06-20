@@ -6,7 +6,6 @@
     <title>Around the U.S.</title>
     <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <script src="./scripts/script.js"></script>
     <script
       src="https://kit.fontawesome.com/0291b03fa1.js"
       crossorigin="anonymous"
@@ -29,7 +28,7 @@
         />
         <div class="profile__info-container">
           <div class="profile__name-and-edit">
-            <h1 class="profile__name">Jacques Cousteau</h1>
+            <h1 id="test" class="profile__name">Jacques Cousteau</h1>
             <i class="fa-solid fa-pen profile__edit-btn"></i>
           </div>
           <p class="profile__profession">Explorer</p>
@@ -41,15 +40,19 @@
           <form class="popup">
             <i class="fa-solid fa-xmark popup__close"></i>
             <p class="popup__title">Editar perfil</p>
-            <input class="popup__input-name" type="text" placeholder="Nombre" />
+            <input
+              class="popup__input-name"
+              type="text"
+              placeholder="Nombre"
+              required
+            />
             <input
               class="popup__input-about"
               type="text"
               placeholder="Acerca de mí"
+              required
             />
-            <button class="popup__btn-submit" type="submit" disabled>
-              Guardar
-            </button>
+            <button class="popup__btn-submit" type="submit">Guardar</button>
           </form>
         </div>
       </div>
@@ -122,5 +125,6 @@
         </div>
       </div>
     </main>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
