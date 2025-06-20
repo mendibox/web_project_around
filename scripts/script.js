@@ -1,6 +1,6 @@
 let editButton = document.querySelector(".profile__edit-btn");
 let popupContainer = document.querySelector(".popup__container");
-let popup = document.querySelector('.popup');
+let popup = document.querySelector(".popup");
 let popupClose = document.querySelector(".popup__close");
 let profileName = document.querySelector(".profile__name");
 let profileProfession = document.querySelector(".profile__profession");
@@ -12,6 +12,8 @@ function openPopup() {
   popupContainer.style.display = "flex";
   popupContainer.style.justifyContent = "center";
   popupContainer.style.alignItems = "center";
+  popupInputName.value = profileName.textContent;
+  popupInputAbout.value = profileProfession.textContent;
 }
 
 function closePopup() {
@@ -29,4 +31,4 @@ function saveInfo(evt) {
 
 editButton.addEventListener("click", openPopup);
 popupClose.addEventListener("click", closePopup);
-popup.addEventListener('submit', saveInfo);
+popup.addEventListener("submit", saveInfo);

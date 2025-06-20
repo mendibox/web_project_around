@@ -30,7 +30,7 @@
   width: 24px;
   height: 24px;
   margin-left: 3%;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .profile__edit-btn:hover {
@@ -63,22 +63,20 @@
 }
 
 .popup__container {
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    position: fixed;
-    top: 0;
-    right: 0;
-    display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: none;
 }
 
-
-
 .popup {
-    width: 30%;
-    height: 50%;
-    background-color: #ffffff;
-    border-radius: 3%;
+  width: 30%;
+  height: 50%;
+  background-color: #ffffff;
+  border-radius: 3%;
 }
 
 .popup__close {
@@ -105,7 +103,7 @@
   font-size: 14px;
   font-weight: 400;
   border: none;
-  border-bottom: 1px solid #C4C4C4;
+  border-bottom: 1px solid #c4c4c4;
   margin: 0 5% 10% 5%;
 }
 
@@ -114,23 +112,18 @@
   outline: none;
 }
 
- .popup__btn-submit {
+.popup__btn-submit {
   width: 90%;
   height: 15%;
   font-size: 18px;
   font-weight: 400;
-  color: #C4C4C4;
-  border: 1px solid #C4C4C4;
-  background-color: white;
+  color: white;
+  border: 1px solid #c4c4c4;
+  background-color: black;
   margin: 5%;
   border-radius: 5px;
-}
-/*
-.popup__btn-submit:enabled {
-  background-color: black;
-  color: white;
 }
 
 .popup__btn-submit:hover {
   opacity: 80%;
-} */
+}
