@@ -82,9 +82,9 @@
 .popup__close {
   color: white;
   font-size: 40px;
-  position: relative;
-  right: -400px;
-  top: -40px;
+  position: absolute;
+  right: 350px;
+  top: 90px;
 }
 
 .popup__close:hover {
@@ -126,4 +126,38 @@
 
 .popup__btn-submit:hover {
   opacity: 80%;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 544px) {
+  .profile {
+    flex-direction: column;
+  }
+  .profile__img{
+    margin: 5% 0;
+  }
+  .profile__name-and-edit{
+    justify-content: center;
+    margin: 5% 0;
+  }
+  .profile__name {
+    font-size: 20px;
+  }
+  .profile__edit-btn{
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+  }
+  .profile__profession{
+    font-size: 14px;
+  }
+  .profile__profession{
+    text-align: center;
+    margin: 5% 0;
+  }
+  .profile__btn-add {
+    width: 100%;
+  }
 }

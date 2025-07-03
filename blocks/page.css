@@ -8,8 +8,14 @@
     font-family: "Inter", Arial, sans-serif;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
     .page{
-        margin: 0;
+        margin: 5%;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .page{
+        margin: 5%;
     }
 }
