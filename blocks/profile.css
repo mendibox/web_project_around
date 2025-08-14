@@ -80,12 +80,17 @@
   border-radius: 3%;
 }
 
-.popup__close {
-  color: white;
-  font-size: 40px;
+.popup__close-mark {
+  display: flex;
+  justify-content: flex-end;
   position: relative;
-  left: 380px;
-  top: -40px;
+  bottom: 40px;
+  left: 35px;
+}
+
+.popup__close {
+  color: #fff;
+  font-size: 40px;
 }
 
 .popup__close:hover {
@@ -178,9 +183,8 @@
     width: 90%;
     height: 45%;
   }
-  .popup__close {
-    font-size: 30px;
-    left: 250px;
-    top: -35px;
-  }
+  .popup__close-mark { 
+  bottom: 40px;
+  left: 0;
+}
 }
