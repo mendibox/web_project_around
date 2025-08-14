@@ -74,8 +74,7 @@
 }
 
 .popup {
-  width: 30%;
-  height: 50%;
+  width: 40%;
   background-color: #ffffff;
   border-radius: 3%;
 }
@@ -100,7 +99,7 @@
 .popup__title {
   font-size: 24px;
   font-weight: 900;
-  margin: 5% 0 10% 5%;
+  margin: 0 0 10% 5%;
 }
 
 .popup__input-name,
@@ -143,10 +142,6 @@
     height: 18px;
     font-size: 10px;
   }
-  .popup {
-    width: 50%;
-    height: 40%;
-  }
   .popup__title {
     margin: 0 0 5% 5%;
   }
@@ -181,7 +176,6 @@
   }
   .popup {
     width: 90%;
-    height: 45%;
   }
   .popup__close-mark { 
   bottom: 40px;
